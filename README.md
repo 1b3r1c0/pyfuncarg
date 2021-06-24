@@ -31,7 +31,7 @@ Converts any positional arguments in the function call into items of a tuple in 
 
 Converts any kwargs in the function call into key-value pairs of a dictionary in the function
 
-	def funct(*name_dict):
+	def funct(**name_dict):
 		for k, v in name_dict.items():
 			do something
 	
